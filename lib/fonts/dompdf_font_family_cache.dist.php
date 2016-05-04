@@ -6,20 +6,6 @@
     'italic' => $rootDir . '/lib/fonts/Helvetica-Oblique',
     'bold_italic' => $rootDir . '/lib/fonts/Helvetica-BoldOblique',
   ),
-  'times' => 
-  array (
-    'normal' => $rootDir . '/lib/fonts/Times-Roman',
-    'bold' => $rootDir . '/lib/fonts/Times-Bold',
-    'italic' => $rootDir . '/lib/fonts/Times-Italic',
-    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
-  ),
-  'times-roman' => 
-  array (
-    'normal' => $rootDir . '/lib/fonts/Times-Roman',
-    'bold' => $rootDir . '/lib/fonts/Times-Bold',
-    'italic' => $rootDir . '/lib/fonts/Times-Italic',
-    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
-  ),
   'courier' => 
   array (
     'normal' => $rootDir . '/lib/fonts/Courier',
@@ -90,4 +76,17 @@
     'italic' => $rootDir . '/lib/fonts/DejaVuSerif-Italic',
     'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
   ),
+  'times' => array (
+      'normal' => DOMPDF_FONT_DIR . 'times',
+      'bold' => DOMPDF_FONT_DIR . 'timesbd',
+      'italic' => DOMPDF_FONT_DIR . 'timesi',
+      'bold_italic' => DOMPDF_FONT_DIR . 'timesbi'
+  ),
+  'times-roman' => array (
+      'normal' => DOMPDF_FONT_DIR . 'times',
+      'bold' => DOMPDF_FONT_DIR . 'timesbd',
+      'italic' => DOMPDF_FONT_DIR . 'timesi',
+      'bold_italic' => DOMPDF_FONT_DIR . 'timesbi'
+  )
+
 ) ?>
